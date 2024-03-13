@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.right-content {
+  width: 50%;
+  text-align: left;
+  margin-top: 130px;
+
+}
+
+.left-content img {
+  width: 440px;
+  height: 260px;
+  margin-top: 165px;
+  margin-left: 100px;
+}
+
+
+
+h1 {
+  color: #000000;
+  font-size: 4em;
+}
+
+p {
+  color: #000000;
+  font-size: 2em;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+ 
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0e7ac4;
+}
+
+a {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.create-account-button {
+  background-color: #1DA1F2; /* Ajusta este color según tus necesidades */
+  color: white;
+  border: none;
+}
+
+.special-letter {
+ font-size: 1em;
+}
+.footer {
+  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+}
